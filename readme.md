@@ -1,11 +1,13 @@
 # Shopping Cart
+
 ![Shopping Cart Menu](/images/menu.PNG)
+
 This app simulate the a e-commerce site where you can order food online.
 This project is aimed at learning some advance html, javascript and css skill needed to build good frontend app.
 
 ## How to Access
 
-To access this app directly online click [here](#)
+To access this app directly online click [here](https://shoping-cart-ashen.vercel.app/)
 . or
 locally on your system no installation is required just clone the repo and open the index.html with your web browser or open the whole folder with your prefer text editor and the index.html with live server.
 
@@ -13,8 +15,11 @@ locally on your system no installation is required just clone the repo and open 
 Select item of your choice by clicking on the + button to add it to the cart, a preview of your selected items with the price of and the total price of the selected items will be display. you can as well remove any item from the checkout list by clicking on the remove button beside the name of the item you want to remove.
 
 ![Checkout Preview](/images/checkout.PNG)
+
 click on Complete order to procee to payment portal.
+
 ![make payment](/images/payment.PNG)
+
 enter your card detail and click on pay
 
 ## How it works
@@ -70,4 +75,4 @@ function handleRemoveOrder(name) {
 
 Adedipupo OLudare A - adexoludare@gmail.com
 
-Project Link: https://github.com/adexoludare/
+Project Link: https://github.com/adexoludare/Shoping-Cart.git
