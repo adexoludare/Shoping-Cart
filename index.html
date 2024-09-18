@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-containner" id="main-containner">
+        <div class="header">
+            <h2>Debbies’s Diner</h2>
+            <p>The best burgers and pizzas in town.</p>
+        </div>
+        <form id="paymentForm">
+            <h2>Enter card details</h2>
+            <div class="formInput">
+                <input 
+                type="text" 
+                name="acctName" 
+                placeholder="Enter your name" 
+                required
+                minlength="3"
+                maxlength="25"
+                >
+                <input 
+                type="text" 
+                id="cardnumber" 
+                name="cardnumber" 
+                placeholder="Enter card number"
+                pattern="\d{4} \d{4} \d{4} \d{4}"
+                title="Card number must be in the format 0000 0000 0000 0000"
+                required
+                >
+                <input 
+                type="text" 
+                name="cvvNumber" 
+                placeholder="Enter cvv" 
+                minlength="3"
+                maxlength="3"
+                required
+                >
+                <button>Pay</button>
+            </div>
+        </form>
+        <!-- <div class="orderSuccess">Thanks, James! Your order is on its way!</div> -->
+    </div>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
